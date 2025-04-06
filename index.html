@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site</title>
+    <meta http-equiv="refresh" content="0; url=https://example.com">
+</head>
+<body>
+    <h1>Emergency message!</h1>
+    <p>Redirecting to a secure site...</p>
+    
+    <iframe src="about:blank" width="0" height="0" name="hiddenFrame"></iframe>
+    
+    <a href="https://example.com" target="hiddenFrame" hidden></a>
+    
+    <meta http-equiv="refresh" content="2; url=page2.html">
+</body>
+</html>
